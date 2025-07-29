@@ -29,8 +29,14 @@ Traditional TWAS focuses on associating genetically predicted **gene expression*
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/pathWAS.git
+# Clone the repository
+git clone https://github.com/yousef-mustafa/pathWAS.git
 cd pathWAS
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install the package in editable mode
 pip install -e .
 ```
 
