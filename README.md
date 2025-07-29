@@ -1,4 +1,4 @@
-# 🧬 pathWAS: Analysis Framework for the Pathway-Wide Association Study
+# 🧬 pathWAS: Analysis Framework for Pathway-Wide Association Studies (PWAS)
 
 **pathWAS** is an open-source Python package for conducting **pathway-level analogs of transcriptome-wide association studies (TWAS)**. It enables researchers to model genetically regulated pathway activity and test its association with complex traits using both **individual-level** and **summary-level** data.
 
@@ -36,6 +36,7 @@ pip install -e .
 
 ## 📁 Project Structure
 
+```text
 pathWAS/
 ├── pathwas/                # Core package
 │   ├── pas/                # PAS computation methods
@@ -50,6 +51,7 @@ pathWAS/
 ├── tests/                  # Unit tests
 ├── notebooks/              # Development notebooks
 └── examples/               # Example runs
+```
 
 ## 🧪 Example Usage
 
